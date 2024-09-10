@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# Production build output
+/build
+
+# Miscellaneous
+.DS_Store
+
+# TypeScript environment file
+next-env.d.ts
+
+# IDE settings
+/.idea
+
+# Local certificates
+/certificates

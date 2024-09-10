@@ -1,0 +1,42 @@
+{
+  "name": "web_adb_kitting_sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "dev:https": "HTTPS=true node ./server.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.13.0",
+    "@fluentui/react": "^8.120.5",
+    "@lifeomic/bitrise": "^0.10.2",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "@yume-chan/adb": "0.0.24",
+    "@yume-chan/adb-backend-webusb": "0.0.19",
+    "@yume-chan/adb-credential-web": "0.0.21",
+    "@yume-chan/adb-daemon-webusb": "0.0.23",
+    "@yume-chan/android-bin": "0.0.24",
+    "@yume-chan/async": "2.2.0",
+    "@yume-chan/stream-extra": "0.0.24",
+    "@yume-chan/stream-saver": "2.0.6",
+    "@yume-chan/struct": "0.0.24",
+    "express": "^4.19.2",
+    "mobx": "^6.13.1",
+    "mobx-react-lite": "^4.0.7",
+    "next": "^14.2.5",
+    "pm2": "^5.4.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.4.0",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.4"
+  }
+}
